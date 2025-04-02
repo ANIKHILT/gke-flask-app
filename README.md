@@ -6,17 +6,17 @@
 
 3. Deploy to Kubernetes
 Apply the Kubernetes deployment files:
-kubectl apply -f deployment.service1.yaml
-kubectl apply -f deployment.service2.yaml
-kubectl apply -f deployment.service3.yaml
+i. kubectl apply -f deployment.service1.yaml
+ii. kubectl apply -f deployment.service2.yaml
+iii. kubectl apply -f deployment.service3.yaml
 
 
-Summary
-Set up Flask application with routes and HTML templates.
-Create requirements.txt to manage dependencies.
-Create Dockerfile to containerize the application.
-Build and push Docker images to Docker Hub.
-Create GKE cluster using Google Cloud SDK.
-Deploy Kubernetes deployment files to GKE.
+Summary:
+a. Set up Flask application with routes and HTML templates.
+b. Create requirements.txt to manage dependencies.
+c. Create Dockerfile to containerize the application.
+d. Build and push Docker images to Docker Hub.
+e. Create GKE cluster using Google Cloud SDK.
+f. Deploy Kubernetes deployment files to GKE.
 
 This setup ensures that each service runs independently and uses the correct Docker images from your GitHub repository.
