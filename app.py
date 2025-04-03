@@ -1,4 +1,6 @@
 from flask import Flask, render_template, redirect
+import os
+import requests
 
 app = Flask(__name__)
 
