@@ -1,17 +1,17 @@
 version: '3'
 services:
   service1:
-    image: anikhilt/gke-flask-app/service1:latest
+    image: anikhilt/service1:latest
     ports:
       - "8081:8080"
 
   service2:
-    image: anikhilt/gke-flask-app/service2:latest
+    image: anikhilt/service2:latest
     ports:
       - "8082:8080"
 
   service3:
-    image: anikhilt/gke-flask-app/service3:latest
+    image: anikhilt/service3:latest
     ports:
       - "8083:8080"
 
